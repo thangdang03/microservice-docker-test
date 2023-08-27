@@ -1,0 +1,1 @@
+docker run --name book-service -p 4000:4000 --network microservice-network  -e MYSQL_ROOT_PASSWORD=ABC@1234 -e MYSQL_PORT=ABC@1234 -e MYSQL_DATABASE=scholl -e MYSQL_USER=root -e MYSQL_HOST=microservice-network-alias -d server-books:1.0.0
